@@ -1,0 +1,32 @@
+.property-avaliable{
+    margin-left: 20px;
+}
+.rent{
+    display: flex;
+    margin-top: 5px;
+}
+
+.expectedDeposit{
+    margin: 16px;
+    height: 56px;
+    width: 300px;
+    vertical-align: top;
+    border: 1px solid  #D5D8DC ;
+    border-radius: 5px;
+    padding-bottom: 13px;
+    padding-right: 13px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.maintenance{
+    display: flex;
+    margin-top:10px;
+}
+.furnishig-parking{
+    display: flex;
+    margin-top: 10px;
+}
+
+.description{
+    margin-top: 10px;
+}

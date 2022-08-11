@@ -1,0 +1,91 @@
+.property-container{
+    width: 100%;
+    background: #F0F0F0;
+    margin-top: -70px;   
+}
+
+
+.propertychild-container{
+   margin-top: -50px; 
+}
+.add{
+    height: 10px;
+    width: 100%;
+}
+.sub-nav{
+    width: 130px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 70px ;
+    margin-left: 38px;
+    display: flex;
+
+}
+.sub-child{
+    display: flex;
+    height: 50px;
+}
+.sub-child1{   
+    height: 70px;
+    width: 100px;
+    border-radius: 5px;
+}
+.details{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.sidebar{
+    width: 18%;
+    height: 533px;
+    background-color: #fff;
+    margin-left: 125px;
+}
+.sidebar-detail{
+    display: flex;
+    border-bottom: 1px solid #E5E8E8  ;
+    height: 60px;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.sidebar-detail .image-div{
+    
+    padding: 15px;
+}
+.sidebar-detail .text-div{
+    color: #B2BABB;
+    font-size: 17px;
+    font-weight: 400;
+}
+.formDiv{
+    width: 750px;
+    height: 533px;
+    background-color: #fff;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.sidebar-detail1{
+    display: flex;
+    border-bottom: 1px solid #E5E8E8  ;
+    height: 60px;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+.sidebar-detail1 .image-div{
+    
+    padding: 15px;
+}
+.sidebar-detail1 .text-div{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+}
+#backbtns{
+    
+    margin-left: -80px;
+    
+}

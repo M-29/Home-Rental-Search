@@ -1,0 +1,876 @@
+/* body{
+    background-color:#F0F0F0 ;
+}
+.viewDetail-container
+{
+    display: flex;
+    color: #464646;
+    margin-top: 10px;
+}
+.viewDetail-maindiv1
+{
+    box-shadow: 0 4px 5px rgb(0 0 0 / 38%);
+    background-color: white;
+    margin-left: 53px;
+    width: 24vw;
+    height: 70vh;
+    position: fixed;
+    margin-top: -25px;
+}
+.viewDetail-maindiv2
+{
+    flex: 55%;
+    background-color: white;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 38%);
+    margin-right: 160px;
+    margin-left: 10px;
+    width: 57vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.viewDetail-maindiv7 {
+   
+    margin-left: 260px;
+}
+.viewDetail-maindiv3 a{
+    text-decoration: none;
+    color: #464646;
+
+}
+.viewDetail-maindiv3
+{
+    margin-left: 28vw;
+    width: 58vw;
+    margin-top: -34px;
+}
+.viewDetail-maindiv4
+{
+    margin-top: 10px;
+}
+.detail-subdiv4
+{
+   
+    width: 730px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f2f2f2e0;
+    height: 50px;
+    padding: 14px;
+    margin-top: 10px;
+
+    display: flex;
+}
+.detail-subdiv4 a {
+    text-decoration: none;
+}
+.switch {
+    margin-left: 300px;
+    margin-top: -8px;
+}
+.address{
+    color: #464646;
+}
+#total-count
+{
+    margin-left: 10px;
+    width: 57vw;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 20%);
+}
+
+.detail-subdiv5
+{
+    display: flex;
+    background-color: white;
+    border-top: 1px solid #afacac;
+    border-bottom: 1px solid #efefef;
+    padding-left: 10px;
+    padding: 10px;
+    height: 60px;
+}
+.deatail-subContainer1
+{
+    flex: 33%;
+    padding-left: 80px;
+    border-right: 1px solid #efefef;
+    
+}
+.deatail-subContainer2
+{
+    flex: 33%;
+    padding-left: 80px;
+    border-right: 1px solid #efefef;
+
+
+}
+.num
+{
+    font-weight: 600;
+    color: #464646;
+    font-size: 16px;
+}
+.num .rupee
+{
+    width: 0.7em;
+}
+.text{
+    font-size: 12px;
+    font-weight: 400;
+    color: #464646;
+}
+.deatail-subContainer3
+{
+    flex: 33%;
+    padding-left: 80px;
+}
+.detail-subdiv6
+{
+    display: flex;
+    padding: 10px;
+}
+.deatail-subContainer4
+{
+    flex: 40%;
+    height: 30vh;
+    
+}
+.deatail-subContainer4 img
+{
+    width: 260px;
+    height: 171px;
+}
+.deatail-subContainer5
+{
+    flex: 75%;
+    height: 25vh;
+    margin-left: 10px;
+}
+.view-datadiv1
+{
+    display: flex;
+    padding: 3px;
+    
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(218 216 216);
+}
+.view-datadiv2
+{
+    display: flex;
+    padding: 10px;
+    padding-left: 3px;
+}
+.view-datadiv3
+{
+    display: flex;
+}
+.view-datadiv4
+{
+    display: flex;
+}
+.datadiv1{
+    display: flex;
+    flex: 50%;
+    border-right: 1px solid #efefef;
+
+}
+.datadiv2{
+    flex: 50%;
+    display: flex;
+    padding-left: 8px;
+}
+.view-img
+{
+   flex: 40%; 
+   padding: 4px;
+   padding-left: 35px;
+}
+.view-text
+{
+    flex:60%;
+    margin-left: -20px;
+}
+.ownerDetail-btn
+{
+    padding: 12px;
+    width: 20vw;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.viewDetail-maindiv7
+{
+ 
+    margin-left: 260px;
+}
+.view-container2 .ownerDetail-btn:hover
+{
+    background-color: #0d49b8;
+  
+
+}
+.view-container1{
+    border: 1.5px solid #efefef;
+    height: 22vh;
+    padding:10px;
+}
+.viewDetail-container12
+{
+display: flex;
+    color: #464646;
+    margin-top: 31px;
+}
+.view-container2
+{
+    padding-top: 5px;
+}
+.view-container2
+{
+    padding-top: 5px;
+    margin-left: 290px;
+    margin-top: -66px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.filter-div1
+{
+    justify-content: center;
+    height: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f2f2f2e0;
+    border-bottom: 3px solid #1976d2;
+    color: #555
+}
+.filter-container
+{
+    padding-left: 10px;
+}
+.filter-div2{
+padding-top: 10px;
+}
+
+.common-BHK1
+{
+    background-color: rgb(227, 226, 229);
+    width: 55px;
+    cursor: pointer;
+
+}
+.common-BHK2
+{
+    margin-top: 5px;
+    width: 55px;
+    background-color: rgb(227, 226, 229);
+    cursor: pointer;
+
+}
+.common-BHK3
+{
+    width: 55px;
+    margin-top: 5px;
+    background-color: rgb(227, 226, 229);
+    cursor: pointer;
+
+}
+.common-BHK4
+{
+    width: 55px;
+    margin-top: 5px;
+    background-color: rgb(227, 226, 229);
+    cursor: pointer;
+
+}
+.common-BHK4 :hover
+{
+    background-color: rebeccapurple;
+}
+.viewDetail-progess
+{
+    margin: 290px;
+    margin-left: 50vw;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #2384f3;
+}
+.ownerDetail-btn1
+{
+    padding: 10px;
+    width: 215px;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 65px;
+    margin-left: -289px;
+    position: absolute;
+
+}
+.css-1p5q5e5-MuiStack-root{
+    margin-top: 20px;
+    padding: 40px;
+}
+nav{
+  
+    margin-left: 25vw;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    background-color: #fff;
+    width: 88vw;
+    padding-left: 15vw;
+}
+.FilterBtn{
+
+}
+.applyFilter
+{
+    width: 24vw;
+    margin-top: 5px;
+    padding: 12px;
+    background-color: #1976d2;
+    border-radius: 3px;
+    margin-left: -10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.favIcon
+{
+    margin-left: 50px;
+    margin-top: 2px;
+}
+#backbtn
+{
+    position: absolute;
+    margin-left: -32px;
+    margin-top: 0px;
+}
+#backbtn1
+{
+    position: absolute;
+    margin-left: -32px;
+    margin-top: 15px;
+}
+.viewDetail-maindiv11
+{
+    
+    margin-left: 53px;
+    width: 24vw;
+    height: 70vh;
+    position: fixed;
+}
+.viewDetail-maindivs a{
+    text-decoration: none;
+    color: #464646;
+
+}
+.viewDetail-maindivs
+{
+    margin-left: 28vw;
+    width: 58vw;
+}
+.viewDetail-maindivs
+{
+    margin-left: 20vw;
+    width: 58vw;
+}
+.pagination-div1
+{
+    margin-left: -94px;
+    width: 90vw;
+    background-color: white;
+}
+
+.css-i4bv87-MuiSvgIcon-root
+{
+    padding-left: -16px;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list 
+{
+width:140px;
+}
+.css-aqqxug-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper
+{
+    padding-left: 11px;
+    width: 153px;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root
+{
+    padding: 8px;
+}
+.MuiIconButton-sizeSmall
+{
+    padding-left: 30px;
+}
+.css-5nwj3y 
+{
+    padding-left: 20px;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list li{
+    padding: 5px;
+}
+.MuiButtonBase-root
+{
+padding: 8px;
+}
+.formControl .checkboxColor{
+    color: #53a0ec;
+}
+.viewDetail-empty{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -200px; 
+}
+.viewDetail-innerEmpty{
+    margin-left: 25px;
+}
+.MuiFormControlLabel-root .MuiCheckbox-colorSecondary.Mui-checked
+{
+    color: #53a0ec;
+}
+
+
+ */
+
+
+ body {
+    background-color: #F0F0F0;
+}
+
+.viewDetail-container {
+    display: flex;
+    color: #464646;
+    margin-top: 35px;
+    /* margin-top: 22px; */
+}
+
+.viewDetail-maindiv1 {
+    box-shadow: 0 4px 5px rgb(0 0 0 / 38%);
+    background-color: white;
+    margin-left: 53px;
+    width: 24vw;
+    height: 70vh;
+    position: fixed;
+    margin-top: -25px;
+}
+
+.viewDetail-maindiv2 {
+    flex: 55%;
+    background-color: white;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 38%);
+    margin-right: 160px;
+    margin-left: 10px;
+    width: 57vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.viewDetail-maindiv7 {
+    margin-left: 260px;
+}
+
+.viewDetail-maindiv3 a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.viewDetail-maindiv3 {
+    margin-left: 28vw;
+    width: 58vw;
+    margin-top: -34px;
+}
+.viewDetail-empty{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -200px; 
+}
+.viewDetail-innerEmpty{
+    margin-left: 25px;
+}
+.viewDetail-maindiv4 {
+    margin-top: 10px;
+}
+
+.detail-subdiv4 {
+    width: 730px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f2f2f2e0;
+    height: 50px;
+    padding: 14px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.detail-subdiv4 a {
+    text-decoration: none;
+}
+
+.switch {
+    margin-left: 300px;
+    margin-top: -8px;
+}
+
+.address {
+    color: #464646;
+}
+
+#total-count {
+    margin-left: 10px;
+    width: 57vw;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 20%);
+}
+
+.detail-subdiv5 {
+    display: flex;
+    background-color: white;
+    border-top: 1px solid #afacac;
+    border-bottom: 1px solid #efefef;
+    padding-left: 10px;
+    padding: 10px;
+    height: 60px;
+}
+
+.deatail-subContainer1 {
+    flex: 33%;
+    padding-left: 80px;
+    border-right: 1px solid #efefef;
+
+}
+
+.deatail-subContainer2 {
+    flex: 33%;
+    padding-left: 80px;
+    border-right: 1px solid #efefef;
+}
+
+.num {
+    font-weight: 600;
+    color: #464646;
+    font-size: 16px;
+}
+
+.num .rupee {
+    width: 0.7em;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #464646;
+}
+
+.deatail-subContainer3 {
+    flex: 33%;
+    padding-left: 80px;
+}
+
+.detail-subdiv6 {
+    display: flex;
+    padding: 10px;
+}
+
+.deatail-subContainer4 {
+    flex: 40%;
+    height: 30vh;
+
+}
+
+.deatail-subContainer4 img {
+    width: 260px;
+    height: 171px;
+}
+
+.deatail-subContainer5 {
+    flex: 75%;
+    height: 25vh;
+    margin-left: 10px;
+}
+
+.view-datadiv1 {
+    display: flex;
+    padding: 3px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(218 216 216);
+}
+
+.view-datadiv2 {
+    display: flex;
+    padding: 10px;
+    padding-left: 3px;
+}
+
+.view-datadiv3 {
+    display: flex;
+}
+
+.view-datadiv4 {
+    display: flex;
+}
+
+.datadiv1 {
+    display: flex;
+    flex: 50%;
+    border-right: 1px solid #efefef;
+}
+
+.datadiv2 {
+    flex: 50%;
+    display: flex;
+    padding-left: 8px;
+}
+
+.view-img {
+    flex: 40%;
+    padding: 4px;
+    padding-left: 35px;
+}
+
+.view-text {
+    flex: 60%;
+    margin-left: -20px;
+}
+
+.ownerDetail-btn {
+    padding: 12px;
+    width: 20vw;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.viewDetail-maindiv7 {
+
+    margin-left: 260px;
+}
+
+.view-container2 .ownerDetail-btn:hover {
+    background-color: #0d49b8;
+}
+
+.view-container1 {
+    border: 1.5px solid #efefef;
+    height: 22vh;
+    padding: 10px;
+}
+
+.view-container2 {
+    padding-top: 5px;
+}
+
+.view-container2 {
+    padding-top: 5px;
+    margin-left: 290px;
+    margin-top: -66px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.filter-div1 {
+    justify-content: center;
+    height: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f2f2f2e0;
+    border-bottom: 3px solid #1976d2;
+    color: #555
+}
+
+.filter-container {
+    padding-left: 10px;
+}
+
+.filter-div2 {
+    padding-top: 10px;
+}
+
+.common-BHK1 {
+    background-color: rgb(227, 226, 229);
+    width: 55px;
+    cursor: pointer;
+}
+
+.common-BHK2 {
+    margin-top: 5px;
+    width: 55px;
+    background-color: rgb(227, 226, 229);
+    cursor: pointer;
+}
+
+.common-BHK3 {
+    width: 55px;
+    margin-top: 5px;
+    background-color: rgb(227, 226, 229);
+    cursor: pointer;
+}
+
+.common-BHK4 {
+    width: 55px;
+    margin-top: 5px;
+    background-color: rgb(227, 226, 229);
+    cursor: pointer;
+}
+
+.common-BHK4 :hover {
+    background-color: rebeccapurple;
+}
+
+.viewDetail-progess {
+    margin: 290px;
+    margin-left: 50vw;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #2384f3;
+}
+
+.ownerDetail-btn1 {
+    padding: 10px;
+    width: 215px;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 65px;
+    margin-left: -289px;
+    position: absolute;
+}
+
+.css-1p5q5e5-MuiStack-root {
+    margin-top: 20px;
+    padding: 40px;
+}
+
+nav {
+    margin-left: 25vw;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    background-color: #fff;
+    width: 88vw;
+    padding-left: 15vw;
+}
+
+.applyFilter {
+    width: 24vw;
+    margin-top: 5px;
+    padding: 12px;
+    background-color: #1976d2;
+    border-radius: 3px;
+    margin-left: -10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.favIcon {
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+#backbtn {
+    position: absolute;
+    margin-left: -32px;
+    /* margin-top: -17px; */
+    margin-top: 1px;
+}
+
+.viewDetail-maindiv11 {
+    margin-left: 53px;
+    width: 24vw;
+    height: 70vh;
+    position: fixed;
+    margin-top: -24px;
+}
+
+.viewDetail-maindivs a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.viewDetail-maindivs {
+    margin-left: 28vw;
+    width: 58vw;
+}
+
+.viewDetail-maindivs {
+    margin-left: 20vw;
+    width: 58vw;
+    margin-top: -34px;
+
+}
+
+
+.pagination-div1 {
+    margin-left: -94px;
+    width: 90vw;
+    background-color: white;
+}
+#backbtn1
+{
+    position: absolute;
+    margin-left: -32px;
+    margin-top: 35px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    padding-left: -16px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    width: 140px;
+}
+
+.css-aqqxug-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    padding-left: 11px;
+    width: 153px;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    padding: 8px;
+}
+
+.MuiIconButton-sizeSmall {
+    padding-left: 30px;
+}
+
+.css-5nwj3y {
+    padding-left: 20px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list li {
+    padding: 5px;
+}
+
+.MuiButtonBase-root {
+    padding: 8px;
+}
+.formControl .checkboxColor {
+    color: #53a0ec;
+}
+.MuiFormControlLabel-root .MuiCheckbox-colorSecondary.Mui-checked
+{
+    color: #53a0ec;
+}
+.MuiIconButton-label .PrivateSwitchBase-input-24
+{
+    margin-left: -20px;
+}
+.MuiTouchRipple-root
+{
+    margin-left: -1px;
+}

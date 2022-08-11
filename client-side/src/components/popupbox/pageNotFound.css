@@ -1,0 +1,12 @@
+.notfoundimg
+{
+    margin-top: 10vh;
+    margin-left: 29vw;
+    height: 60vh;
+    width: 40vw;
+    /* position: fixed; */
+}
+.pageNotFound-div{
+    background-color: white;
+    height: 100vh;
+}

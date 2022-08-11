@@ -1,0 +1,155 @@
+.header-childdiv img {
+    width: 41px;
+    height: 35px;
+    margin-top: 3px;
+    position: absolute;
+    margin-left: -46px;
+    cursor: pointer;
+}
+
+.header-childdiv1 {
+    display: flex;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.header-subdiv1 {
+    display: flex;
+    justify-content: space-around;
+    flex: 53%;
+}
+
+.header-subdiv5 {
+    display: flex;
+    flex: 15%;
+    padding: 11px;
+}
+
+.header-subdiv2 {
+    display: flex;
+}
+
+.header-subdiv2 img {
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    margin-left: -21px;
+}
+
+.header-subdiv3 img {
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    margin-left: -21px;
+   
+}
+
+.header-subdiv3 {
+    display: flex;
+}
+
+.header-subdiv4 {
+    width: 147px;
+}
+
+.header-subdiv6 {
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #555;
+    font-weight: 300;
+    font-size: 18px;
+    width: 70px;
+}
+.header-subdiv7 {
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #555;
+    font-weight: 300;
+    font-size: 18px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+
+
+
+.navbarcontainer{
+    background-color: #fff;
+}
+/* nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: sans-serif;
+
+    height: 60px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+} */
+nav{
+  
+  /* margin-left: 200px;
+  height: 50px;
+  bottom: 0;
+  position: fixed;
+  background-color: #fff;
+  width: 1000px; */
+}
+.css-wjh20t-MuiPagination-ul{
+    /* padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    margin-top: 20px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: -7px;
+}
+nav button{
+    float: right;
+    padding: 10px;
+    border: none;
+    background-color: #1B4F72;
+    color: #fff;
+    border-radius: 4px;
+    width: 70px;margin-right: 5px;
+}
+nav ul .search{
+    color: #D6D9DB;
+    margin-left: 400px;
+}
+#searchinput{
+  height: 30px;
+  width: 350px;
+}
+.navbarcontainer .imageelement{
+    float: right;
+   margin-top: -60px;
+   margin-right: 100px;
+   display: flex;
+  }
+  .navbarcontainer .imageelement img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+  }
+  .navbarcontainer .imageelement .names{
+    margin-left: 10px;
+  }
+  .navbarcontainer .imageelement .names h4{
+    color: #1B4F72;
+    margin-top: 2px;
+  }
+  .navbarcontainer .imageelement .names h5{
+    color: #1B4F72;
+    margin-top: -15px;
+  }
+  .navbarcontainer .imageelement .headerbtn{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: -55px;
+  }

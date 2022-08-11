@@ -1,0 +1,80 @@
+
+.appartmentType{
+    display: flex;
+}
+
+.MuiFormControl-root .css-1xx1jnx-MuiFormControl-root{
+    margin-top: -3px;
+}
+.label::after {
+    content: '*';
+}
+.heading{
+   
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 15px;
+    color: #3498DB ;
+    border-bottom: 1px solid #E5E8E8;
+}
+.subLabel{
+    color: red;
+}
+.bhkType{
+    display: flex;
+    margin-top: 10px;
+}
+.builtup{
+    margin: 16px;
+    height: 56px;
+    width: 300px;
+    vertical-align: top;
+    border: 1px solid  #D5D8DC ;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+    
+}
+
+.builtup:focus{
+    border: 2px solid #2E86C1 ;
+    outline: #2E86C1 ;
+}
+.builtup:hover{
+    outline: 1px solid black;
+}
+.propertyAge{
+    display: flex;
+    margin-top: 10px;
+}
+.floor{
+    display: flex;
+    margin-top: 10px;
+}
+.button{
+    margin-left: 36%;
+}
+.save{
+    width: 30%;
+    height: 40px;
+    color: #fff;
+    background-color: #2E86C1;
+    border: none;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 27px;
+}
+.errMsg{
+    color: red;
+    margin-left: 25px;
+}
+.errMsg::before{
+    content: "*";
+}
+.bedroom-contact{
+    display: flex;
+    margin-top: 10px;
+}
+.appartmentDetail{
+    margin-top: 15px;
+}

@@ -1,0 +1,89 @@
+.city{
+    margin-top: 10px;
+    display: flex;
+}
+.label{
+    margin-left: 19px;
+    margin-top: 10px;
+}
+.label::after {
+    content: '*';
+}
+.heading{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #3498DB ;
+    border-bottom: 1px solid #E5E8E8;
+}
+.landmark{
+    margin-top: 10px;
+}
+.nameLabel{
+    margin-left: 19px;
+    margin-top: 20px;
+}
+.nameLabel::after{
+    content: '*';
+}
+.subLabel{
+    color: red;
+}
+.bhkType{
+    display: flex;
+}
+.builtup{
+    margin: 16px;
+    height: 56px;
+    width: 300px;
+    vertical-align: top;
+    border: 1px solid  #D5D8DC ;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+    
+}
+.sqft{
+    margin-top:-55px ;
+    margin-left: 275px;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+.builtup:focus{
+    border: 2px solid #2E86C1 ;
+    outline: #2E86C1 ;
+}
+.builtup:hover{
+    outline: 1px solid black;
+}
+.propertyAge{
+    display: flex;
+}
+.floor{
+    display: flex;
+}
+.button{
+    margin-left: 25%;
+    border-radius: 7px;
+}
+.save{
+    width: 30%;
+    height: 40px;
+    color: #fff;
+    background-color: #2E86C1;
+    border: none;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.back{
+    width: 30%;
+    height: 40px;
+    color: #fff;
+    margin: 3px;
+    background-color: #2E86C1;
+    border: none;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 27px;
+}

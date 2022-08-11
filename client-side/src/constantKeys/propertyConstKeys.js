@@ -1,0 +1,103 @@
+const propertyKeys ={
+    back:"Back",
+    save:"Save",
+    propertyDetail:"Property Details",
+    locationDetails:"Location Details",
+    rentalDetail:"Resale Details",
+    amenitiesHeading:"Amenities",
+    galleryHeading:"Gallery",
+    propertyRegisteredSucessfully:"Property registered sucessfully",
+    propertyEditedSucessfully:"Property edited successfully",
+    rentalKeys:{
+        heading:"Rental Details About Property",
+        expectedRent:"Expected rent",
+        expectedDeposit:"Expected Deposit",
+        monthlyMaintenance:"Monthly maintenance",
+        prefferedTenants:"Preffered tenants",
+        furnishing:"Furnishing",
+        parking:"Parking",
+    },
+    amenities:{
+        heading:"Provide additional details about property",
+        subHeading:"Select the avaliable amenities",
+    },
+    gallery:{
+        heading:"Uploads photos",
+        info:"Add images to get good response",
+        subInfo:"90% tenants contact on properties with photos",
+        addLabel:"Add Photos"
+    },
+    locality:{
+        heading:"Location Details",
+        city:"City",
+        locality:"Locality",
+        landmark:"Landmark"
+    },
+    propertyDetails:{
+        heading:"Property Details",
+        apartmentType:"Apartment Type",
+        bhkType:"Bhk Type",
+        builtUpArea:"Builtup Area",
+        sqft:"Sq.ft",
+        propertyAge:"Property Age",
+        facing:"Facing",
+        floor:"Floor",
+        totalFloor:"Total Floor",
+        bedRoom:"Bedrooms",
+        contactNo:"Contact no",
+        numberPrefix:"+91",
+    },
+    names:{
+        city:"city",
+        locality:"locality",
+        landmark:"landmark",
+        name:"name",
+        email:"email",
+        password:"password",
+        apartmentType:"apartmentType",
+        bhkType:"bhkType",
+        id1:"627dc6cda106f53c73bb3e23",
+        id2:"627dc6d5a106f53c73bb3e25",
+        id3:"627dc6dca106f53c73bb3e27",
+        id4:"627dc6e1a106f53c73bb3e29",
+        id5:"627dc6f7a106f53c73bb3e2b",
+        builtUpArea:"builtUpArea",
+        facing:"facing",
+        propertyAge:"propertyAge",
+        floor:"floor",
+        totalFloor:"totalFloor",
+        contactNo:"contactNo",
+        bedRoom:"bedroom",
+        rent:"rent",
+        deposit:"deposit",
+        maintenance:"maintenance",
+        preferedTenants:"preferedTenants",
+        furnishing:"furnishing",
+        parking:"parking",
+        description:"description"
+    },
+    passwordCheck:{
+        upperCase:"Have atleast one uppcase character",
+        lowerCase:"Have atleast one lowercase character",
+        specialCharacter:"Have atleast one special character",
+        numberFlag:"Have atleast one numeric value",
+        lengthFlag:"Length must be greater than 5"
+    },
+    myListing:{
+        builtUpArea:"BUilt-up Area",
+        deposit:"Deposit",
+        rent:"Rent",
+        furnishing:"Furnishing",
+        apartmentType:"Apartment type",
+        preferedTenants:"Preffered Tenants",
+        availiability:"Availability",
+        editBtnLabel:"Edit property details",
+        noDataFound:"NO PROPERTY IS LISTED BY YOU"
+    },
+    myWishList:{
+        heading:"YOUR WISHLIST IS EMPTY",
+        subHeading1:" Add property that you like to your wishlist. Review",
+        subHeading2:"them anytime and easily rent and buy them ."
+    }
+}
+export default propertyKeys;

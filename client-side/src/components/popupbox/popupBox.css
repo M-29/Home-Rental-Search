@@ -1,0 +1,97 @@
+.login-flex {
+    width: 100%;
+    height: 105%;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.responsecontent {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+    position: relative;
+}
+
+.responsecontent h3 {
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+#removebtn {
+  
+    padding: 10px;
+    width: 50px;
+    border: none;
+    background-color: #1B4F72;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.popup-div
+{
+    display:  flex;
+}
+#removebtn1 {
+    margin-top: 25px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: #1B4F72;
+    border: none;
+    color: white;
+    padding-left: 100p;
+    margin-left: 80px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+#removebtn2 {
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: #1B4F72;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#crossbtn {
+    margin-left: 75px;
+    margin-top: -44px;
+    border: none;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+.popup-div1{
+    display: flex;
+}
+.popUp-subdiv1
+{
+    padding-top: 20px;
+    color: black;
+    padding-left: 120px;
+}
+.popUp-subdiv2
+{
+    text-align: left;
+    padding-top: 20px;
+    color: black;
+    padding-right: 17px;
+
+}

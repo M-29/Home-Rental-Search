@@ -1,0 +1,82 @@
+.image-uploader{
+    width: 150px;
+    margin-left: 35px;
+    
+  }
+  .image-uploader label{
+    color: #fff;
+  }
+  #input[type="file"]{
+    display: none;
+  }
+  .uploadDiv{
+      margin: 20px;
+      width: 710px;
+      height: 380px;
+      background: #F0F0F0;
+      border: 2px solid #E5E8E8;
+      border-radius: 4px;
+  }
+  .cameraDiv{
+      width: 300px;
+      margin-left: 350px;
+      height: 50px;
+      margin-top: 40px;
+  }
+  .demoText{
+      margin-left: 210px;
+  }
+  .demoText1{
+    margin-left: 210px;
+}
+.addLabel{
+    margin-left: 265px;
+    margin-top: 43px;
+    background: rgb(0, 122, 111);
+    color: #fff;
+    height: 55px;
+    width: 136px;
+    align-items: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
+.addLabel label{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.selectedImages{
+  width: 800px;
+  height: 120px;
+  display:  flex;
+  flex-wrap: wrap;
+}
+.imageDiv img{
+  width: 90px;
+  height: 80px;
+  
+  padding: 20px;
+}
+.imageDiv {
+  margin-left: 95px;
+  margin-top: 10px;
+  display: flex;
+}
+.deleteDiv{
+  opacity: 0;
+  transition: 0.3s all;
+  margin-top: 6px;
+  margin-left: -24px;
+} 
+.deleteDiv .deleteBtn{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #1B4F72;
+  color: #fff;
+} 
+.imageDiv:hover .deleteDiv{
+  opacity: 1;
+}

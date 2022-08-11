@@ -1,0 +1,144 @@
+.bedroom-balcony{
+    display: flex;
+    margin-left: -5px;
+}
+.subHead{
+    margin-top:10px;
+    margin-left: 20px;
+}
+.subHead::after{
+    content: '*';
+}
+.subHead1{
+    margin-top:10px;
+    margin-left: 0px;
+}
+.subHead1::after{
+    content: '*';
+}
+.bedroom{
+    margin-left: 16px;
+    margin-top: 5px;
+    height: 55px;
+    width: 300px;
+    border: 1px solid #D5D8DC ;
+    border-radius: 4px;
+    display: flex;
+}
+.bedroom:hover{
+    border: 1px solid black;
+}
+.bedroom:focus{
+    border: 2px solid blue;
+}
+.minus{
+    margin-left: 10px;
+    margin-top: 7px;
+    height: 40px;
+    width: 40px;
+
+}
+.value{
+    width: 90px;
+    height: 60px;
+    margin-left: 40px;
+    align-items: center;
+    text-align: center;
+}
+.value p{
+    margin-top: 15px;
+}
+.plus{
+    margin-left: 69px;
+    margin-top: 7px;
+    height: 40px;
+    width: 40px;
+
+}
+.balcony{
+    
+    margin-top: 10px;
+    height: 56px;
+    width: 300px;
+    border: 1px solid #D5D8DC ;
+    border-radius: 4px;
+    display: flex;
+}
+.balconyDiv{
+    margin-left: 17px;
+}
+.ownerDetails{
+    display: flex;
+}
+.contactNo{
+    margin: 16px;
+    height: 56px;
+    width: 300px;
+    vertical-align: top;
+    border: 1px solid  #D5D8DC ;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 13px;
+    padding-left: 47px;
+    cursor: pointer;
+}
+.line{
+    height: 1px;
+    width:660px;
+    background: #D5D8DC;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.subHeading{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #BFC9CA;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+}
+.option1{
+    margin-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 670px;
+}
+.option2{
+    margin-left: 40px;
+    /* display: flex; */
+    width: 170px;
+    
+}
+.option3{
+    margin-left: 25px;
+    display: flex;
+    width: 170px;
+}
+.option4{
+    margin-left: -45px;
+    display: flex;
+    width: 170px;
+}
+.checkbox{
+    width: 70px;
+    margin-left: 30px;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.icons{
+    margin-left: 20px;
+    margin-top: 9px;
+}
+.text-label{
+    margin-top: 9px;
+}
+.text-label1{
+    width: 200px;
+    margin-top: 9px;
+}
+.checkBoxes{
+    width: 170px;
+}
